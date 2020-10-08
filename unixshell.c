@@ -6,14 +6,6 @@
 #include <fcntl.h>
 
 #define MAXLINE 80
-#include <stdio.h>
-#include <unistd.h>
-#include <stdlib.h>
-#include <string.h>
-#include <sys/wait.h>
-#include <fcntl.h>
-
-#define MAXLINE 80
 
 
 void freeArgs(char *args[],int argv) {
